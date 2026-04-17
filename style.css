@@ -1,88 +1,189 @@
-
-nav ul{
+nav ul {
     background-color: #f7eff785;
     list-style: none;
     justify-content: center;
     align-items: center;
-    display:flex;
+    display: flex;
     gap: 200px;
-    margin : 0;
+    margin: 0;
     padding: 0;
     height: 50px;
+
 }
+
 nav ul li a {
+    text-decoration: none;
     color: rgb(14, 1, 1);
 }
+
 body {
     margin: 0;
     padding: 0;
     background-color: rgba(250, 235, 215, 0.642);
 }
 
-.logo{
+.logo {
     margin: 0;
     display: flex;
     justify-content: center;
 }
+
 .logo img {
     width: 200px;
     height: auto;
     width: 141px;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 4px 15px #00000026 ;
-}
-.nom {
-  font-family: "Boldonse", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-}
-.presentation{
-  font-family: "Martel", serif;
-  font-size: 30px;
-  text-align: center; 
-}
-.slogan{
-  font-family: "Pinyon Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size:80px;
-  text-align: center;
+    box-shadow: 0 4px 15px #00000026;
 }
 
-header{
-    background-image:url(./assets/photographe/prestations/mariage.jpg);
+.nom {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.presentation {
+    font-family: "Martel", serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.slogan {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+}
+
+header {
+    background-image: url(./assets/photographe/prestations/mariage.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
 }
-.femme{
+
+.femme {
     height: 50%;
     width: 50%;
 }
-.pr{
-display: flex;
-   
+
+.pr {
+    display: flex;
+
 }
-.photo{
+
+.photo {
     border: #57295785;
     border-radius: 45px;
     width: 320px;
     margin-right: 95px;
     margin-top: 80px;
 }
-.picture{
+
+.picture {
     display: flex;
 
+
 }
-.picture2{
+
+.picture2 {
     display: flex;
 }
-.list{
- list-style: none;
- display:flex;
- gap: 200px;0px;
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 180px;
+}
+
+.valeur {
+    color: rgb(53, 32, 5);
+    text-align: center;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 10px auto;
+    width: 400px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(218, 155, 84, 0.8);
+    background: linear-gradient(45deg, #f9f9f9, #b5a9a9);
+
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.commentaire {
+    display: flex;
+    text-align: center;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 10px auto;
+    width: 400px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    background: linear-gradient(45deg, #ffd9a3, #d3a678);
+    height: 200px;
+    align-items: center
+}
+
+.client {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    border: 2px solid #333;
+
+    margin: 10px auto;
+    width: 400px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(5, 5, 5, 0.8);
+    background: linear-gradient(45deg, #ffffff, #f5f2ef);
+    height: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bouton {
+    text-decoration: none;
+    border-radius: 36px;
+    padding: 9px 15px;
+    box-shadow: 0 0 100px green;
+    margin-top: 15px;
+    background-color: cadetblue;
+
+}
+
+.labelStyle {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+}
+
+.sectionForm {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
 }
